@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+	background-color: #000;
+}
+.gallery {
+	background-color: #212225;
+	width: 830px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 670px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 6px;
+}
+.gallery img {
+	margin: 15px;
+}
