@@ -1,0 +1,88 @@
+<head>
+  <meta charset="utf-8">
+
+  <title>Absolute 1</title>
+  <meta name="description" content="Keyword Rich Description" />
+  <meta name="author" content="Reginald Grant II" />
+  <style type="text/css">
+  * {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #ECECEC;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-align: center;
+	line-height: 24px;
+}
+#wrapper {
+	background-color: #FFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 50vw;
+  height:30vh;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.box-properties{
+  width:125px;
+  height:125px;
+}
+#red {
+	background-color: #900;
+  top:0;
+  left:0;
+  position:absolute;
+}
+#green {
+	background-color: #090;
+  top:0;
+  right:0;
+  position:absolute;
+}
+#blue {
+	background-color: #00F;
+  bottom:0;
+  left:0;
+  position:absolute;
+}
+#purple {
+	background-color: #63C;
+  bottom:0;
+  right:0;
+  position:absolute;
+}
+#footer {
+	background-color: #666;
+  position:absolute;
+  top: 30%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:10vw;
+  height:20vh;
+}
+h1 {
+	color: #000;
+	font-weight: normal;
+	padding: 50px;
+}
+  </style>
+  </head>
+  
+  <h1>Absolute 1</h1>
+<div id="wrapper">
+  <div id="red" class="box-properties">Red</div>
+  <div id="green" class="box-properties">Green</div>
+  <div id="blue" class="box-properties">Blue</div>
+  <div id="purple" class="box-properties">Purple</div>
+  <div id="footer">Footer</div>
+</div>
